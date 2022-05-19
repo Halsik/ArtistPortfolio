@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    height: 9vh;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    box-shadow: rgb(179, 179, 179) 0px 0px 10px 1px;
+    
+}
+
+.artistName {
+    cursor: pointer;
+    font-family: 'Satisfy', cursive;
+    width: 30%;
+}
+
+.navigation {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 9vh;
+    width: 70%;
+}
+
+.sites {
+    width: 50%;
+    gap: 30px;
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.tag {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-right: 60px;
+    transition: 0.3s;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.pressed {
+    color: black;
+}
+
+.tag:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.container {
+    height: 120vh;
+}
+
+.firstSection {
+    display: flex;
+    height: 50%;
+}
+
+.photoSecond {
+    background-image: url(2.webp);
+    width: 50%;
+}
+
+.aboutMe {
+    line-height: 30px;
+    color:rgb(77, 76, 76);
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 50%;
+}
+
+.photoFirst {
+   background-image: url(1about.jpeg);
+    width: 50%;
+}
+
+footer {
+    background-color: rgb(34, 33, 33);
+    height: 10vh;
+}
+
+.nameFooter {
+    font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 30px;
+        color: white;
+    
+}
