@@ -20,9 +20,16 @@ nav {
 }
 
 .artistName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     font-family: 'Satisfy', cursive;
     width: 30%;
+}
+.name {
+    text-align: center;
+    font-size: 30px;
 }
 
 .navigation {
@@ -39,11 +46,7 @@ nav {
     gap: 30px;
 }
 
-.name {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
-}
+
 
 .tag {
     font-family: 'Roboto', sans-serif;
@@ -78,11 +81,14 @@ nav {
 }
 
 .aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     line-height: 30px;
     color:rgb(77, 76, 76);
-    padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     width: 50%;

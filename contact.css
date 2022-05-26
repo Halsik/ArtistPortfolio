@@ -20,9 +20,16 @@ nav {
 }
 
 .artistName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     font-family: 'Satisfy', cursive;
     width: 30%;
+}
+.name {
+    text-align: center;
+    font-size: 30px;
 }
 
 .navigation {
@@ -37,12 +44,6 @@ nav {
 .sites {
     width: 50%;
     gap: 30px;
-}
-
-.name {
-    text-align: center;
-    font-size: 30px;
-    padding-top: 10px;
 }
 
 .tag {
