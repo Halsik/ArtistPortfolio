@@ -11,13 +11,13 @@ const ninethImage = document.querySelector(".ninethPaint");
 const showLayout = document.querySelector(".overlay")
 const modalButton = document.querySelector(".modalButton")
 const modalImage = document.querySelector(".modalImage")
+const modalButtonFirst = document.querySelector(".modalButtonFirst")
 
 let photo = ["2about.jpeg", "1.jpg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg"]
 
 modalButton.addEventListener("click", function() {
    showLayout.classList.remove("show")
 })
-
 
 firstImage.addEventListener("click", function() {
     showLayout.classList.toggle("show")

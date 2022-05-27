@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 * {
     margin: 0;
@@ -131,3 +132,67 @@ footer {
         color: white;
     
 }
+
+.overlayFirst {
+    
+    display: inline-block;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+.modal {
+    overflow: scroll;
+    display: flex;
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(6, 6, 6) 0px 0px 40px 5px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.modalText {
+    width: 100%;
+}
+.tip {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+   
+}
+
+.modalHeader {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding: 40px;
+    color: black;
+    font-size: 50px;
+}
+
+.modalButtonFirst {
+    cursor: pointer;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color: black;
+}
+
